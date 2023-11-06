@@ -1,0 +1,88 @@
+/* Custom CSS Code */
+.container {
+  margin: 0 auto; /* Center the content */
+  max-width: 800px; /* Set a maximum width for the container */
+  padding: 20px; /* Add some space around the content */
+}
+
+.card {
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for subtle depth */
+  margin-bottom: 20px; /* Add some space between cards */
+  padding: 20px; /* Add some space inside the card */
+  text-align: center; /* Center the content inside the card */
+}
+
+.card img {
+  display: block; /* Make the image centered within the card */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.card h1,
+.card h2,
+.card p,
+.card a {
+  text-align: center; /* Center the text */
+}
+
+body {
+  background-color: #f9f9f9;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #007BFF;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 150px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+}
+
+.social-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #333;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: #007BFF;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
